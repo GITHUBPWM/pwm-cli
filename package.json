@@ -1,0 +1,26 @@
+{
+  "name": "pwm-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "commander": "^2.19.0",
+    "download-git-repo": "^1.1.0",
+    "inquirer": "^6.2.2",
+    "ora": "^3.2.0"
+  },
+  "bin": {
+    "pwm": "bin/pwm",
+    "pwm-add": "bin/pwm-add",
+    "pwm-delete": "bin/pwm-delete",
+    "pwm-list": "bin/pwm-list",
+    "pwm-init": "bin/pwm-init"
+  }
+}
